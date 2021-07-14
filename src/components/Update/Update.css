@@ -1,0 +1,93 @@
+.alignProfile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+}
+
+.styleInputBox {
+	background: none;
+	border: none;
+	border-bottom: 2px solid black;
+	display: inline;
+	outline: none;
+}
+
+img {
+	display: inline;
+}
+
+.hideOverflow {
+	min-width: 0;
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  top: 30%;
+  /*margin-top: calc(100vh - 85vh - 20px);*/
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: 28%;
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+/*.styleProfilePic {
+	position: relative;
+    top: 0;
+    left: 0;
+}
+
+.uploadImageIcon {
+	position: absolute;
+    top: 35%;
+    left: 55%;
+}*/
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.profileIcon {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+}
+.updateProfileIcon {
+  position: absolute;
+  top: 60%;
+  left: 58%;
+  /*border: 1px green solid;*/
+}
