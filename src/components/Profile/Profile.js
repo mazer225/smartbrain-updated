@@ -39,7 +39,7 @@ class Profile extends React.Component {
 			<div className="alignProfile">
 				<div className="f3 w-50">
 					{this.props.profileImageUrl===""
-						?<div><img className="profileIcon" src="https://www.searchpng.com/wp-content/uploads/2019/02/Profile-ICon.png" width="200px" heigt="auto" className="styleProfilePic"/><br /></div>
+						?<div><img className="profileIcon" src={require('./update_page_icon.png').default} width="200px" heigt="auto" className="styleProfilePic"/><br /></div>
 						:<div><img className="profileIcon" src={this.props.profileImageUrl} width="200px" height="200px" style={{borderRadius: "100%",objectFit:"cover"}} className="styleProfilePic"/><br /></div>}
 					<p className="tl"><span className="underline">Name:</span><span className="white">  {name}</span></p>
 					<p className="tl "><span  className="underline">Email ID:</span><span className="white">  {email}</span></p>

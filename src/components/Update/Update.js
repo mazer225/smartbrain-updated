@@ -95,7 +95,7 @@ class Update extends React.Component {
 				<div className="f3 w-50">
 					<div className="parent">
 						{this.props.profileImageUrl===""
-						?<div><img className="profileIcon" src="https://www.searchpng.com/wp-content/uploads/2019/02/Profile-ICon.png" width="200px" heigt="auto" className="styleProfilePic"/><br /></div>
+						?<div><img className="profileIcon" src={require('./update_page_icon.png').default} width="200px" heigt="auto" className="styleProfilePic"/><br /></div>
 						:<div><img className="profileIcon" src={this.props.profileImageUrl} width="200px" height="200px" style={{borderRadius: "100%",objectFit:"cover"}} className="styleProfilePic"/><br /></div>}
 						<p className="pointer" onClick={()=>this.togglePopup("uploadProfileImage")}><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/camera-1564671-1325543.png" width="60px" height="auto" style={{borderRadius:"100%"}} className="updateProfileIcon"/></p>
 					</div>
