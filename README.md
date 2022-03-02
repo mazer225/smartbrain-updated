@@ -1,6 +1,6 @@
 # smartbrain-updated
 
-To see the Live Deo of the Porject [Click Here](https://smartbrain-face-reg-app.herokuapp.com/)
+To see the Live Deo of the Project [Click Here](https://smartbrain-face-reg-app.herokuapp.com/)
 
 Once Registered/Logged In, paste an Image address (of an Image with face) in the input field and click on Detect to 
 see the magic.
